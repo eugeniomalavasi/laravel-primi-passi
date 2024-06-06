@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>First Laravel page</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -14,7 +14,11 @@
         <style>
         </style>
     </head>
+
     <body>
-        <h1>test</h1>
+        <header>
+
+        </header>
+        <h1>ciao {{ $username }}</h1>
     </body>
 </html>
