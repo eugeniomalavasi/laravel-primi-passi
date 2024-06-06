@@ -12,5 +12,14 @@ Route::get('/', function () {
 })->name("home");
 
 Route::get('/products', function() {
-    return view(('products'));
+    $products = [
+        "zappa",
+        "falcetto",
+        "decespugliatore"
+    ];
+
+    $data = [
+        'products' => $products,
+    ];
+    return view('products', $data);
 })->name("products");
